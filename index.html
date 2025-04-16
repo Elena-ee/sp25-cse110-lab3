@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meeting Minutes</title>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="favicon.ico" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Pomodoro Timer First Brainstorm</h1>
+            <h2>Check-ins</h2>
+            <h3>Date: 04/15/2025</h3>
+        </header>
+
+        <main>
+            <nav>
+                <a href="#agenda">Agenda</a><br />
+                <a href="#media">Media</a><br />
+            </nav>
+
+            <details>
+                <summary>Meeting Summary</summary>
+                <p>We brainstormed a <b>pomodoro timer</b> in today's meeting!</p>
+                <p><em>More importantly</em>, <strong>our team is bonding through the brainstorming</strong>!</p>
+                <p>Not everyone reads <i>Sherlock Holmes</i>, but brainstorming like this makes us think like a detective!</p>
+            </details>
+
+            <section class="attendance">
+                <h4>Attendance list:</h4>
+                <ul>
+                    <li>x</li>
+                    <li>y</li>
+                    <li>z</li>
+                </ul>
+            </section>
+    
+            <section class="agenda">
+                <h5>Agenda:</h5>
+                <ul>
+                    <li>a</li>
+                    <li>b</li>
+                    <li>c</li>
+                </ul>
+            </section>
+    
+            <section class="unfinished-business">
+                <h6>Things that were unfinished business from last meeting:</h6>
+                <ol>
+                    <li>?</li>
+                    <li>?</li>
+                    <li>?</li>
+                </ol>
+            </section>
+    
+            <section class="new-business">
+                <h6>Things that are new business that need to be talked about:</h6>
+                <ol>
+                    <li>?</li>
+                    <li>?</li>
+                    <li>?</li>
+                </ol>
+            </section>
+    
+            <section class="miscellaneous">
+                <h6>Miscellaneous:</h6>
+                <ul>
+                    <li>?</li>
+                    <li>?</li>
+                    <li>?</li>
+                </ul>
+            </section>
+    
+            <hr />
+
+            <section class="media">
+                <h6>Pictures:</h6>
+                <img src="media/power_chart_page-0001.jpg" alt="describes the image being shown for screen readers, or if the image can't be displayed"/>
+            
+                <h6>Audio recording of the meeting:</h6>
+                <audio controls src="media/Lemon.m4a"></audio>
+    
+                <h6>Video recording of the meeting:</h6>
+                <video controls width="320">
+                    <source src="media/summernight.mp4" type="video/mp4" />
+                </video>
+            </section>
+
+            <form>
+                <fieldset>
+                    <legend>Your Info</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" />
+
+                    <label>Did you attend the meeting?</label>
+                    <input type="radio" name="attendance" value="yes" />
+                    <input type="radio" name="attendance" value="no" />
+
+                    <label>Select the topic that you are most interested in:</label>
+                    <input type="checkbox" id="topic1" name="x" checked />
+                    <input type="checkbox" id="topic2" name="y" />
+
+                    <label for="date">Date of Meeting:</label>
+                    <input
+                        type="date"
+                        id="date"
+                        name="meeting-date"
+                        value="2025-04-15" />
+
+                    <label for="feedback">Comments on today's meeting:</label>
+                    <textarea id="feedback" name="feedback" rows="5" cols="33">It went well!</textarea>
+
+                    <label for="next-meeting-topic">Choose a topic:</label>
+                    <input list="next-meeting-topics" id="next-meeting-topic" name="next-meeting-topic" />
+                    <datalist id="next-meeting-topics">
+                        <option value="Topic1"></option>
+                        <option value="Topic2"></option>
+                        <option value="Topic3"></option>
+                        <option value="Topic4"></option>
+                    </datalist>
+
+                    <label for="mood">How excited are you for next meeting:</label>
+                    <select id="mood" name="mood">
+                        <option value="">--Please choose your excitement level--</option>
+                        <option value="not excited at all">Not excited at all</option>
+                        <option value="somewhat excited">Somewhat excited</option>
+                        <option value="super excited">Super excited</option>
+                        <option value="idc">Idc</option>
+                    </select>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <p>Meeting Minutes by Elena</p>
+        </footer>
+
+        <div></div>
+        <span></span>
+    </body>
+</html>
