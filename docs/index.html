@@ -15,7 +15,11 @@
 
         <main>
             <nav>
+                <a href="#attendance">Attendance</a><br />
                 <a href="#agenda">Agenda</a><br />
+                <a href="#unfinished-business">Unfinished business</a><br />
+                <a href="#new-business">New business</a><br />
+                <a href="#miscellaneous">Miscellaneous</a><br />
                 <a href="#media">Media</a><br />
             </nav>
 
@@ -27,8 +31,9 @@
                 <p><em>More importantly</em>, <strong>our team is bonding through the brainstorming</strong>!</p>
                 <p>Not everyone reads <i>Sherlock Holmes</i>, but brainstorming like this makes us think like a detective!</p>
             </details>
+            <br /><br />
 
-            <section class="attendance">
+            <section id="attendance" class="attendance">
                 <h4>Attendance list:</h4>
                 <ul>
                     <li>x</li>
@@ -37,7 +42,7 @@
                 </ul>
             </section>
     
-            <section class="agenda">
+            <section id="agenda" class="agenda">
                 <h5>Agenda:</h5>
                 <ul>
                     <li>a</li>
@@ -46,7 +51,7 @@
                 </ul>
             </section>
     
-            <section class="unfinished-business">
+            <section id="unfinished-business" class="unfinished-business">
                 <h6>Things that were unfinished business from last meeting:</h6>
                 <ol>
                     <li>?</li>
@@ -55,7 +60,7 @@
                 </ol>
             </section>
     
-            <section class="new-business">
+            <section id="new-business" class="new-business">
                 <h6>Things that are new business that need to be talked about:</h6>
                 <ol>
                     <li>?</li>
@@ -64,7 +69,7 @@
                 </ol>
             </section>
     
-            <section class="miscellaneous">
+            <section id="miscellaneous" class="miscellaneous">
                 <h6>Miscellaneous:</h6>
                 <ul>
                     <li>?</li>
@@ -75,7 +80,7 @@
     
             <hr />
 
-            <section class="media">
+            <section id="media" class="media">
                 <h6>Pictures:</h6>
                 <img src="media/power_chart_page-0001.jpg" alt="describes the image being shown for screen readers, or if the image can't be displayed"/>
             
@@ -87,6 +92,7 @@
                     <source src="media/summernight.mp4" type="video/mp4" />
                 </video>
             </section>
+            <br /><br />
 
             <form>
                 <fieldset>
@@ -101,7 +107,7 @@
                     <input type="radio" name="attendance" value="no" /> No
                     <br /><br />
 
-                    <label>Select the topic that you are most interested in:</label>
+                    <label>Select the topic that you were most interested in:</label>
                     <input type="checkbox" id="topic1" name="topic1" /> Topic 1
                     <input type="checkbox" id="topic2" name="topic2" /> Topic 2
                     <br /><br />
@@ -114,7 +120,7 @@
                     <textarea id="feedback" name="feedback" rows="4" cols="20">It went well!</textarea>
                     <br /><br />
 
-                    <label for="next-meeting-topic">Choose a topic:</label>
+                    <label for="next-meeting-topic">Choose a topic for next meeting:</label>
                     <input list="next-meeting-topics" id="next-meeting-topic" name="next-meeting-topic" />
                     <datalist id="next-meeting-topics">
                         <option value="Topic1"></option>
