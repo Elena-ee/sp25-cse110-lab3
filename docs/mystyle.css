@@ -9,8 +9,12 @@
 }
 
 body {
-    background-color: gray;
+    background-color: var(--main-bg-color, gray);
     color: var(--primary-text-color, black);
+}
+
+section {
+    background: linear-gradient(to right, #3eee, #feb47b);
 }
 
 h1 {
