@@ -13,6 +13,21 @@ body {
     color: var(--primary-text-color, black);
 }
 
+body {
+    font-size: 2rem;
+    padding: 2em;
+    margin: 4%;
+}
+
+h1 {
+    width: 300;
+    height: 120;
+}
+
+footer {
+    font-size: 20pt;
+}
+
 section {
     background: linear-gradient(to right, #3eee, #feb47b);
 }
