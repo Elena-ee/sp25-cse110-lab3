@@ -2,3 +2,26 @@
 /* 1. General CSS Topics */
 /* 2. CSS Selectors */
 /* 3. CSS Validation */
+
+body {
+    background-color: gray;
+    color: #423;
+}
+
+h1 {
+    color: rgb(240, 246, 220)
+}
+
+h2 {
+    color: hsl(200, 100%, 70%);
+}
+
+h3 {
+    color: color(display-p3 0.4 0.6 0.8 / 1);
+}
+
+p {
+    color: color-mix(in srgb, yellow 60%, pink 40%);
+}
+
+
