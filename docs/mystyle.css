@@ -77,6 +77,11 @@ section {
     border-color:hsl(200, 100%, 70%);
     border-width: 2px;
     border-radius: 6px;
+
+    width: 260px;
+    height: 130px;
+    max-width: 600px;
+    min-width: 260px;
 }
 
 
