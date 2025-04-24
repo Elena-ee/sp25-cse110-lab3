@@ -3,9 +3,14 @@
 /* 2. CSS Selectors */
 /* 3. CSS Validation */
 
+:root {
+    --main-bg-color: gray;
+    --primary-text-color: #423
+}
+
 body {
     background-color: gray;
-    color: #423;
+    color: var(--primary-text-color, black);
 }
 
 h1 {
