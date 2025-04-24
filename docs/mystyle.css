@@ -52,6 +52,7 @@ h4 {
 
 p {
     color: color-mix(in srgb, yellow 60%, pink 40%);
+    display: inline;
 }
 
 nav {
@@ -67,6 +68,8 @@ nav {
     padding-left: 10px;
     padding-right: 10px;
     padding: 10px 10px 10px 10px;
+
+    display: block;
 }
 
 section {
