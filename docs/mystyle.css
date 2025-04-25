@@ -19,7 +19,7 @@ body {
     margin: 4%;
 }
 
-h1 {
+h1:hover {
     width: 300;
     height: 120;
 
@@ -86,6 +86,10 @@ section {
     height: 130px;
     max-width: 600px;
     min-width: 260px;
+}
+
+button:active {
+    color: white;
 }
 
 
