@@ -88,6 +88,8 @@ h6 {
 p {
     color: rgb(131, 137, 243);
     display: inline;
+
+    font-family: 'Dancing Script', serif;
 }
 
 nav {
