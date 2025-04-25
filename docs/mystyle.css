@@ -4,40 +4,56 @@
 /* 3. CSS Validation */
 
 :root {
-    --main-bg-color: gray;
-    --primary-text-color: #423
+    --main-bg-color: rgb(237, 208, 225);
+    --primary-text-color: #516
 }
 
 body {
-    background-color: var(--main-bg-color, gray);
+    background-color: var(--main-bg-color, lightblue);
     color: var(--primary-text-color, black);
-}
 
-body {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 2em;
     margin: 4%;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9rem;
+        margin: 2%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.media {
+    margin-bottom: 60px;
+    clear: both;
 }
 
 h1:hover {
     width: 300;
     height: 120;
 
-    position: static;
+    position: fixed;
 }
 
 footer {
     font-size: 20pt;
+    margin-top: 40px;
+    text-align: center;
 
-    position: fixed;
-}
-
-section {
-    background: linear-gradient(to right, #3eee, #feb47b);
+    position: static;
 }
 
 h1 {
-    color: rgb(240, 246, 220)
+    color: color-mix(in srgb, rgb(90, 204, 241) 70%, white 30%);
 }
 
 h2 {
@@ -45,17 +61,32 @@ h2 {
 }
 
 h3 {
-    color: color(display-p3 0.4 0.6 0.8 / 1);
+    color: color(display-p3 0.9 0.6 0.7 / 1);
 }
 
 h4 {
-    color: lightpink;
     text-align: left;
+    color: lightpink;
     text-decoration: overline;
 }
 
+h5 {
+    color: lightpink;
+    text-decoration: overline;
+
+    /* color: plum; */
+}
+
+h6 {
+    color: lightpink;
+    text-decoration: overline;
+
+    /* color: aquamarine; */
+    margin-bottom: 10px;
+}
+
 p {
-    color: color-mix(in srgb, yellow 60%, pink 40%);
+    color: rgb(131, 137, 243);
     display: inline;
 }
 
@@ -85,26 +116,44 @@ nav {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    gap: 40px;
     background-color: lightgoldenrodyellow;
-    gap: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
 section {
+    background: linear-gradient(to right, #3eee, #feb47b);
+
     border-style: solid;
     border-color:hsl(200, 100%, 70%);
     border-width: 2px;
     border-radius: 6px;
 
     width: 260px;
-    height: 130px;
     max-width: 600px;
     min-width: 260px;
+
+    margin-bottom: 40px;
+    padding: 10px;
 }
 
 button:active {
-    color: white;
+    color: color-mix(in srgb, lightgreen 50%, lightblue 50%);
+}
+
+.grid-container img,
+.grid-container audio,
+.grid-container video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid-container > * {
+    padding: 10px;
+    border-radius: 8px;
 }
 
 
