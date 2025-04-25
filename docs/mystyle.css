@@ -22,10 +22,14 @@ body {
 h1 {
     width: 300;
     height: 120;
+
+    position: static;
 }
 
 footer {
     font-size: 20pt;
+
+    position: fixed;
 }
 
 section {
