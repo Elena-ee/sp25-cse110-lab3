@@ -87,9 +87,15 @@ h1:hover {
 }
 
 h1 {
-    color: color-mix(in srgb, rgb(90, 204, 241) 70%, white 30%);
+    color: color-mix(in srgb, rgb(90, 204, 241) 80%, white 20%);
 
     text-align: center;
+    text-decoration-line: overline;
+}
+
+h2:hover {
+    color: hotpink;
+    transform: scale(1.1);
 }
 
 h2 {
@@ -99,6 +105,11 @@ h2 {
     color: hsl(200, 100%, 70%);
     
     position: absolute;
+}
+
+h3:hover {
+    background-color: rgb(147, 200, 246);
+    transform: scale(1.1);
 }
 
 h3 {
