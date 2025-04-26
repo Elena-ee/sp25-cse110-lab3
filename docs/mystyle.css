@@ -45,11 +45,9 @@ body {
     font-weight: bold;
 }
 
-h1:hover {
-    width: 300;
-    height: 120;
-
-    position: fixed;
+* {
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
 }
 
 footer {
@@ -60,12 +58,22 @@ footer {
     position: static;
 }
 
+h1:hover {
+    transform: scale(1.2);
+    background-color: lightyellow;
+}
+
 h1 {
     color: color-mix(in srgb, rgb(90, 204, 241) 70%, white 30%);
 }
 
 h2 {
+    width: 200;
+    height: 120;
+
     color: hsl(200, 100%, 70%);
+    
+    position: fixed;
 }
 
 h3 {
