@@ -82,6 +82,8 @@ h1, h2, h3 {
 } 
 
 h1:hover {
+    font-weight: bolder;
+
     transform: scale(1.2);
     background-color: lightyellow;
 }
@@ -197,6 +199,27 @@ section {
 
     margin-bottom: 40px;
     padding: 10px;
+}
+
+section ul {
+    background-color: rgb(209, 246, 223);
+}
+
+form > fieldset {
+    border: 2px solid rgb(171, 113, 246);
+}
+
+details > summary {
+    color:rgb(200, 94, 231);
+    transition: color 0.3s ease-in-out;
+}
+
+h2 ~ p {
+    text-decoration: none;
+}
+
+h3 + p {
+    text-align: left;
 }
 
 button:active {
