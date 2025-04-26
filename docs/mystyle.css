@@ -63,6 +63,11 @@ ol {
     color: orchid;
 }
 
+ul {
+    list-style-type: circle;
+    color: #426;
+}
+
 footer {
     font-size: 20pt;
     margin-top: 40px;
@@ -84,7 +89,8 @@ h1:hover {
 }
 
 h1 {
-    color: color-mix(in srgb, rgb(90, 204, 241) 80%, white 20%);
+    /* color: color-mix(in srgb, rgb(90, 204, 241) 80%, white 20%); */
+    color: rgb(90, 204, 241); /* for validation */
 
     text-align: center;
     text-decoration-line: overline;
@@ -96,8 +102,8 @@ h2:hover {
 }
 
 h2 {
-    width: 200;
-    height: 120;
+    width: 200px;
+    height: 120px;
 
     color: hsl(200, 100%, 70%);
     
@@ -110,7 +116,8 @@ h3:hover {
 }
 
 h3 {
-    color: color(display-p3 0.9 0.6 0.7 / 1);
+    /* color: color(display-p3 0.9 0.6 0.7 / 1); */
+    color: rgb(230, 153, 179); /* for validation */
 }
 
 h4 {
@@ -158,6 +165,10 @@ nav {
     padding: 10px 10px 10px 10px;
 
     display: block;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 nav.flex-container {
@@ -194,11 +205,6 @@ section {
 
     margin-bottom: 40px;
     padding: 20px;
-
-    ul {
-        list-style-type: circle;
-        color: #426;
-    }
 }
 
 section ul {
@@ -231,7 +237,8 @@ h3 + p {
 }
 
 button:active {
-    color: color-mix(in srgb, lightgreen 50%, lightblue 50%);
+    /* color: color-mix(in srgb, lightgreen 50%, lightblue 50%); */
+    color: lightgreen; /* for validation */
 }
 
 button {
