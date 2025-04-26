@@ -21,6 +21,10 @@ header {
     margin-bottom: 30px;
 }
 
+a[href^="#"] {
+    color: #00ffff;
+}
+
 @media (max-width: 600px) {
     body {
         font-size: 0.9rem;
