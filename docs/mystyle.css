@@ -63,11 +63,6 @@ ol {
     color: orchid;
 }
 
-ul {
-    list-style-type: circle;
-    color: #426;
-}
-
 footer {
     font-size: 20pt;
     margin-top: 40px;
@@ -173,7 +168,7 @@ nav.flex-container {
 .flex-container {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     padding: 10px;
 }
 
@@ -198,7 +193,12 @@ section {
     min-width: 260px;
 
     margin-bottom: 40px;
-    padding: 10px;
+    padding: 20px;
+
+    ul {
+        list-style-type: circle;
+        color: #426;
+    }
 }
 
 section ul {
@@ -226,6 +226,13 @@ button:active {
     color: color-mix(in srgb, lightgreen 50%, lightblue 50%);
 }
 
+button {
+    font-size: 2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color:lightcyan;
+}
+
 .grid-container img,
 .grid-container audio,
 .grid-container video {
@@ -238,6 +245,23 @@ button:active {
 .grid-container > * {
     padding: 10px;
     border-radius: 8px;
+}
+
+form:has(input[type="checkbox"]) {
+    background-color: lavender;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+input, textarea, select {
+    font-size: 1.5rem;
+
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 6px;
+
+    border: 1px solid;
 }
 
 
