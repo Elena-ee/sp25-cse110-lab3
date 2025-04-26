@@ -39,7 +39,11 @@ body {
 
 .fun-time {
     font-family: 'Dancing Script', cursive;
-}g
+}
+
+#miscellaneous {
+    font-weight: bold;
+}
 
 h1:hover {
     width: 300;
