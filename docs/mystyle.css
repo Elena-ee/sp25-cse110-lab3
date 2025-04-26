@@ -254,11 +254,11 @@ form:has(input[type="checkbox"]) {
 }
 
 input, textarea, select {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
     padding: 10px;
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     border-radius: 6px;
 
     border: 1px solid;
